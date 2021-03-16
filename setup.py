@@ -6,8 +6,8 @@ VERSION = '0.17.1'
 
 REQUIRED_PACKAGES = [
     'apache-beam>=2.8.0,<3.0.0',
-    'SQLAlchemy=1.3.23',
-    'sqlalchemy-utils=0.33.11',
+    'SQLAlchemy==1.3.23',
+    'sqlalchemy-utils==0.33.11',
     # Below are drivers for connection to specific DBs
     # 'pg8000>=1.12.4,<2.0.0',
     'pg8000<=1.16.5',
